@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/estate/static/css/main.83c62fb8.css",
+    "main.js": "/estate/static/js/main.62f06695.js",
+    "static/media/page4img.png": "/estate/static/media/page4img.32c4b363fe447d136e84.png",
+    "static/media/page3-img.png": "/estate/static/media/page3-img.86898e6b9f6897be7651.png",
+    "static/media/first-img.png": "/estate/static/media/first-img.203f2a0924439e0b1fdd.png",
+    "static/media/card2.png": "/estate/static/media/card2.8324c1266c6da9e95dbc.png",
+    "static/media/card1.png": "/estate/static/media/card1.159c0ec453482855d0dd.png",
+    "static/media/sliderimg3.png": "/estate/static/media/sliderimg3.1c58da6170a66349ff39.png",
+    "static/media/card3.png": "/estate/static/media/card3.867c374f43a472948372.png",
+    "static/media/sliderimg2.png": "/estate/static/media/sliderimg2.b052632f62cad1a5f902.png",
+    "static/media/intersect.png": "/estate/static/media/intersect.94f6327e9f4515c04d6d.png",
+    "static/media/Ellipse 7.png": "/estate/static/media/Ellipse 7.53af59d6cd95d1d6e4e0.png",
+    "static/media/Ellipse 6.png": "/estate/static/media/Ellipse 6.97cd68c8186a7ff154af.png",
+    "static/media/Ellipse 4.png": "/estate/static/media/Ellipse 4.cea3e352e7487ae2e95b.png",
+    "static/media/Ellipse 5.png": "/estate/static/media/Ellipse 5.fb2e88aadfdb97b3a3c3.png",
+    "index.html": "/estate/index.html",
+    "static/media/ninja.svg": "/estate/static/media/ninja.14831a1aa7777e653b1c2b4ca300ccf5.svg",
+    "main.83c62fb8.css.map": "/estate/static/css/main.83c62fb8.css.map",
+    "main.62f06695.js.map": "/estate/static/js/main.62f06695.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c62fb8.css",
+    "static/js/main.62f06695.js"
+  ]
+}
