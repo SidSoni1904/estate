@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Fasthand&family=PT+Sans:wght@400;700&family=Poppins:wght@100&family=Roboto+Condensed&family=Sora:wght@100;500&family=Ubuntu&display=swap');
+
+.header{
+    background-image: url("../Images/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#buying-navbar::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#renting-effect::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#mysell::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#serve::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+#abt::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#cont::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+
+#buying-navbar,#renting-effect,#mysell,#abt,#serve,#cont{
+    color: white;
+}
+
+#abt:hover{
+    color: #1FAB71;
+}
+
+#serve:hover{
+    color: #1FAB71;
+}
+
+#buying-navbar:hover{
+    color: #1FAB71;
+}
+#mysell:hover{
+    color: #1FAB71;
+}
+#cont:hover{
+    color: #1FAB71;
+}
+
+#sign-up:hover{
+    color: #1FAB71;
+}
+
+#renting-effect:hover{
+    color: #1FAB71;
+}
+#buying-navbar:hover::after{
+    width: 100%;
+}
+#serve:hover::after{
+    width: 100%;
+}
+#mysell:hover::after{
+    width: 100%;
+}
+#abt:hover::after{
+    width: 100%;
+}
+#renting-effect:hover::after{
+    width: 100%;
+}
+
+#serve:hover:hover:after{
+    width: 100%;
+}
+#cont:hover:hover:after{
+    width: 100%;
+}
+
+.navbar-brand-hidden{
+    display: none;
+
+}
+
+.header-logo{
+    width: 25px;
+    height: 22px;
+}
+
+.header-links{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+
+.body-start{
+    margin-top: 70px;
+}
+#discover{
+ /* font-family: 'Sora'; */
+font-weight: 800px;
+font-size: 66px;
+}
+
+#as-soon-as{
+margin-top: 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #969696;
+}
+
+#selectors{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 20px;
+}
+
+#selectors2{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 20px;
+}
+
+#search{
+background: #1FAB71;
+border-radius: 8px;
+width: 117px;
+height: 44px;
+color: white;
+border-color: transparent;
+}
+
+.location-home{
+    margin-top: 30px;
+}
+
+#achievements{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 16px;
+color: #808080;
+}
+
+#numbers{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700px;
+font-size: 26px;
+}
+
+
+.counters{
+    display: flex;
+    width: 500px;
+    color: white;
+    margin-left: 570px;
+    margin-top: -50px;
+}
+
+.box{
+    background: url("../Images/first-img.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.mycards{
+    margin-top: 300px;
+    margin-left: 18px;
+    width: 300px;
+}
+
+@media screen and (max-width: 2211px) {
+    .counters{
+        margin-left: 660px;
+    }
+}
+
+@media screen and (max-width: 1391px) {
+    .counters{
+        margin-left: 570px;
+    }
+}
+
+@media screen and (max-width: 1194px) {
+    .counters{
+        margin-left: 480px;
+        padding-top: 22px;
+    }
+
+    #search{
+        width: 100px;
+    }
+}
+
+
+
+/* tablet view css */
+
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+   
+    .about-us-head{
+       margin-left: 100px;
+    }
+
+    .service-head{
+        margin-left: 70px;
+    }
+
+    .contact-head{
+        margin-left: 70px;
+    }
+    .buying-head , .renting-head , .selling-head{
+        display: flex;
+        justify-content: center;
+    }
+    .renting-head{
+        margin-right: 25px;
+    }
+
+    .selling-head{
+        margin-left: -30px;
+    }
+    .navbar-toggler{    
+        margin-left: 620px;
+        margin-top: -45px;
+    }
+
+    .navbar-brand-hidden{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 320px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+   .navbar-brand{
+   display: none;
+   }
+    
+    .counters{
+        padding-top: 100px;
+        margin-left: 150px;
+    }
+
+    .location-home{
+        height: 200px;
+        width: 400px;
+    }
+
+    .mysearch{
+        padding-top: 10px;
+    }
+
+    #search{
+        width: 360px;
+    }
+
+   
+     .mylocationhome{
+        display: flex;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .secondbox{
+        padding-top: 15px;
+       float: left;
+    }
+
+    .FirstBox{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        
+    }
+} 
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+    .header{
+        height: auto;
+    }
+}
+
+/* mobile view css */
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  
+#serve:hover:hover:after{
+    width: 16%;
+}
+#cont:hover:hover:after{
+    width: 16%;
+}
+#abt:hover:hover:after{
+    width: 16%;
+}
+
+
+#buying-navbar:hover::after{
+    width: 0%;
+}
+
+   
+     .about-us-head{
+       margin-left: -220px;
+    }
+
+    .service-head{
+        margin-left: -250px;
+    }
+
+    .renting-head{
+        margin-left: -30px;
+    } 
+    .contact-head{
+        margin-left: -250px;
+    }
+    .buying-head , .renting-head , .selling-head{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .renting-head{
+        margin-right: 25px;
+    }
+
+    .selling-head{
+        margin-left: -30px;
+    }
+    .navbar-toggler{    
+        margin-left: 300px;
+        margin-top: -40px;
+    }
+
+    .navbar-brand-hidden{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+   .navbar-brand{
+   display: none;
+   }
+   
+
+    .counters{
+        padding-top: 100px;
+        margin-left: 10px;
+        width: 440px;
+    }
+
+  
+
+    .location-home{
+        height: 200px;
+        width: 350px;
+    }
+
+    .mysearch{
+        padding-top: 10px;
+    }
+
+    #search{
+        width: 250px;
+    }
+
+   
+
+     .mylocationhome{
+        display: flex;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .secondbox{
+        padding-top: 15px;
+       float: left;
+    }
+
+   #numbers{
+    font-size: 25px;
+    margin-left: -12px;
+   }
+   
+   #achievements{
+    font-size: 10px;
+    margin-left: -12px;
+   }
+    .FirstBox{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+}
+

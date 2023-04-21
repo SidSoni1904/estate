@@ -1,0 +1,147 @@
+
+.start-page5{
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.page5{
+    background: url("../Images/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.image {
+	position: relative;
+	width: 400px;
+}
+
+
+
+.image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 270px;
+    height: 294px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-color: transparent;
+    border-radius: 22px;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+	backdrop-filter: blur(5px);
+}
+
+
+
+.image__overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+}
+
+.image__overlay:hover>* {
+	transform: translateY(0);
+}
+
+.image__title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+
+#page5-popular{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 18px;
+line-height: 18px;
+color: #1FAB71;
+}
+
+#news{
+padding-top: 20px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: bolder;
+font-size: 48px;
+color: #FFFFFF;
+}
+
+#arrow-buttons{
+    border: 2px solid #969696;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.arrow-buttons{
+    padding-top: 60px;
+    float: right;
+}
+
+.myslider{
+    padding-top: 40px;
+}
+
+#slider-images{
+    width: 270px;
+height: 294px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 990px)  {
+    
+
+    #arrow-buttons{
+        display: none;
+    }
+    
+    #slider-images{
+        padding: 10px
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+      
+
+    #arrow-buttons{
+        display: none;
+    }
+    
+    #slider-images{
+        padding: 10px
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .page5{
+        height: 110vh;
+    }
+
+    #arrow-buttons{
+        display: none;
+    }
+    
+    #slider-images{
+        padding: 10px
+    }
+
+    #news{
+        font-size: 32px;
+    }
+}

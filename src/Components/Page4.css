@@ -1,0 +1,173 @@
+
+.page4{
+    background: url("../Images/BG2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+.start-page-4{
+    padding-top: 150px;
+}
+#benefits{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+color: #1FAB71;
+}
+#choose{
+padding-top: 20px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+}
+
+#trustworthy{
+padding-top: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+color: #969696;
+}
+
+.loyalty{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.page4box{
+    background: url("../Images/page4img.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+#loyalty-benefits{
+    margin-left: 10px;
+}
+
+.employee{
+    width: 450px;
+    height: 100px;
+    margin-left: 35px;
+    top: 450px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-color: transparent;
+    border-radius: 22px;
+}
+
+#number-reviews{
+   margin-left: 2px;
+   font-weight: 800;
+   font-family: "poppins";
+}
+
+#reviews{
+    color: white;
+    font-family: "poppins";
+}
+.review-section{
+    padding-top: 10px;
+}
+
+#emp-number{
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 24px;
+color: white;
+}
+
+/* .persons{
+    display: flex;
+    z-index: 1;
+    margin-top: -100px;
+} */
+
+.page4right{
+    margin-top: -100px;
+}
+
+#p1{
+    margin-top: -100px;
+    margin-left: 200px;
+}
+
+
+#p2{
+    margin-top: -140px;
+    padding-left: 240px;
+}
+
+#p3{
+    margin-top: -180px;
+    padding-left: 280px;
+}
+
+#p4{
+    margin-top: -215px;
+    padding-left: 320px;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .page4{
+        height: 140vh;
+    }
+
+    .page4right{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .page4{
+        height: 150vh;
+    }
+
+    .page4right{
+        margin-top: 50px;
+    }
+
+    .page4box{
+        background-size: 350px;
+        margin-left: 0px;
+    }
+
+    .employee{
+        top: 280px;
+        width: 320px;
+    height: 100px;
+    margin-left: 16px;
+    }
+    
+    #p1{
+    margin-top: -70px;
+    margin-left: -10px;
+}
+
+
+#p2{
+    margin-top: -125px;
+    padding-left: 160px;
+}
+
+#p3{
+    margin-top: -160px;
+    padding-left: 180px;
+}
+
+#p4{
+    margin-top: -200px;
+    padding-left: 200px;
+}
+   
+}

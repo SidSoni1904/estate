@@ -1,0 +1,196 @@
+
+
+.page7{
+    background: url("../Images/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#renty{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+#renty::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#stay-connect::after{
+  content: "";
+  display: flex;
+  background-color: #1FAB71;
+  margin-top: 4px;
+  height: 3px;
+  width: 0;
+  left:0;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+#stay-connect:hover{
+    color: #1FAB71;
+}
+
+#renty:hover{
+    color: #1FAB71;
+}
+
+#renty:hover::after{
+    width: 15%;
+}
+
+#stay-connect:hover:after{
+    width: 35%;
+}
+
+.myfooterlinks{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+color: #969696;
+padding-top: 20px;
+
+}
+
+.RentyFooter{
+    padding-top: 80px;
+}
+
+.social{
+    padding-top: 30px;
+    
+}
+
+.renty-desc{
+    padding-top: 30px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+
+}
+
+.myfooterlinks span{
+    padding-top: 10px;
+}
+
+.myfooterlinks span:hover{
+    color: #1FAB71;
+}
+
+#stay-connect{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+#sign-up{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+color: #969696;
+padding-top: 20px;
+}
+
+.letsconnect{
+    padding-left: 45px;
+}
+
+#subscribe{
+width: 146px;
+height: 45px;
+margin-left: 274px;
+border-color: transparent;
+background: #1FAB71;
+border-radius: 4px;
+color: white;
+margin-top: 20px;
+}
+
+.last-items{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+color: #969696;
+padding-top: 20px;
+}
+
+.right-last-items{
+    float: right;
+}
+
+.right-last-items span{
+    padding-left: 18px;
+}
+
+.textfield__label{
+    color: grey !important;
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .page7{
+        height: 120vh;
+    }
+
+    .letsconnect{
+    padding-left: 10px;
+    padding-top: 50px;
+    }
+
+    #subscribe{
+        margin-left: 290px;
+    }
+    .renty-desc{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .page7{
+        height: 120vh;
+    }
+
+    .letsconnect{
+    padding-left: 10px;
+    padding-top: 50px;
+    }
+
+    #subscribe{
+        margin-left: 110px;
+    }
+    .renty-desc{
+        display: none;
+    }
+
+    #privacy{
+       margin-left: 220px;
+       margin-top: -22px;
+    }
+
+    
+
+    .right-last-items{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    padding-top: 10px;
+}
+}

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Fasthand&family=PT+Sans:wght@400;700&family=Poppins:wght@100&family=Roboto+Condensed&family=Sora:wght@100;500&family=Ubuntu&display=swap");
+
+.second-page {
+  background-image: url("../Images/BG.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myallcards {
+  margin-top: 100px;
+}
+
+.start-second-page {
+  padding-top: 70px;
+}
+#popular {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #1fab71;
+}
+
+#residance {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: white;
+}
+
+.popular-services {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-top: -52px;
+}
+
+.intersect-pattern {
+  background: url("../Images/intersect.png");
+  height: 380px;
+  margin-top: -275px;
+}
+
+.cards {
+  background-color: transparent;
+  border-color: transparent;
+
+}
+
+.inner-zoom{
+  overflow: hidden;
+}
+
+.inner-zoom img{
+  transition: all 1.5s ease;
+}
+
+.inner-zoom:hover img{
+  transform: scale(1.5);
+}
+
+.my-card-body {
+  background-color: #161617;
+  border-color: transparent;
+  border-radius: 0px 0px 15px 15px;
+  color: white;
+}
+
+#booknow {
+  width: 144px;
+  height: 54px;
+  color: white;
+  background: #1fab71;
+  border-radius: 14px;
+  border-color: transparent;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+#card-span {
+  padding-top: 15px;
+  float: right;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+#service {
+  color: gray;
+  margin-left: 10px;
+}
+
+.popular-services2 {
+    display: none;
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+     .second-page{
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+  
+  .second-page {
+    height: 240vh;
+  }
+
+  .intersect-pattern {
+    margin-top: -1200px;
+    height: 120vh;
+  }
+
+  .myallcards .cards {
+    padding: 20px;
+  }
+
+  .popular-services {
+    display: none;
+  }
+
+  .popular-services2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .second-page {
+    height: 230vh;
+  }
+
+  .intersect-pattern {
+    margin-top: -1200px;
+    height: 120vh;
+  }
+
+  .myallcards .cards {
+    padding: 20px;
+  }
+
+  .popular-services {
+    display: none;
+  }
+
+  .popular-services2 {
+    display: none;
+  }
+}

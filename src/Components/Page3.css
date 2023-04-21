@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bebas+Neue&family=Fasthand&family=PT+Sans:wght@400;700&family=Poppins:wght@100&family=Roboto+Condensed&family=Sora:wght@100;500&family=Ubuntu&display=swap');
+
+.myservices{
+    padding-top: 50px;
+}
+.page3{
+background: url("../Images/BG.png");
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 50px;
+}
+
+.my-card-content{
+    width: 435px;
+    height: 490px;
+    top: 15px;
+    right: -100%;
+    left: 100%;
+    margin-left: 5.2%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+
+.my-card-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.my-card-p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.my-card-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+.my-card-btn{
+    color: #FFFFFF;
+    background: #1FAB71;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+}
+.card-hover-effect{
+    overflow: hidden;
+}
+
+.card-hover-effect:hover .my-card-content{
+    right: 0;
+    left: 0;
+}
+#pageimg{
+width: 469px;
+height: 520px;
+border-radius: 14px;
+margin-bottom: 40px;
+}
+
+#our-services{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 18px;
+color: #1FAB71;
+}
+
+#comfort{
+padding-top: 20px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #FFFFFF;
+}
+
+#dialogue{
+padding-top: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+color: #969696;
+}
+
+#ninja-text{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.ninja-group{
+    padding-top: 20px;
+}
+
+#number-reviews{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+@media screen and  (max-width:568px) {
+    .page3{
+        height: auto;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+   
+    #pageimg{
+        padding-top: 60px;
+        height: 620px;
+        width: 500px;
+    }
+
+     .my-card-content{
+         width: 462px;
+    height: 525px;
+    margin-top: 60px;
+    margin-left: 30px;
+    }
+
+    .my-card-title{
+        margin-top: 100px;
+    }
+    .my-card-info{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+      .page3{
+        height: 140vh;
+    }
+    #pageimg{
+        padding-top: 60px;
+        height: 420px;
+        width: 300px;
+    }
+
+    .my-card-content{
+         width: 290px;
+    height: 350px;
+    margin-top: 50px;
+    }
+
+    .my-card-title{
+        margin-top: 100px;
+    }
+    .my-card-info{
+        font-size: 10px;
+    }
+    
+}
